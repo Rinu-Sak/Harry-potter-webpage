@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+    background-image: url(quarters.jpg);
+    background-size: cover;
+    background-position:cover;
+    
+    
+}
+
+
+section{
+    
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: white; */
+
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header .logo{
+    position: relative;
+    
+    border-radius: 50%;
+}
+header ul{
+    position: relative;
+    display: flex;
+
+}
+
+header ul li{
+    list-style: none;
+    
+}
+header ul li a{
+    display:inline-block;
+    color: grey;
+    font-weight: 400;
+    font-size: 23px;
+    margin-left: 40px;
+    text-decoration: none;
+
+}
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content .text{
+    /* margin-top:25em; */
+    position: relative;
+    max-width: 600px;
+}
+.content .text h2{
+    color: rgb(180, 176, 176);
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight:500 ;
+}
+.content .text h2 span{
+    color: rgb(176, 150, 5);
+    font-size: 1.2em;
+    font-weight: 900;
+
+
+}
+.content .text p{
+    color: white;
+    font-size: 22px;
+}
+.content .text a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(176, 150, 5);
+    color: white;
+    border-radius: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+
+}
+.content .imgbox{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.content .imgbox img{
+    max-width: 250px;
+}
+
