@@ -6,7 +6,7 @@
 }
 body{
 
-    background-image: url(quarters.jpg);
+    background-image: url(hogwarts.jpg);
     background-size: cover;
     background-position:cover;
     
@@ -82,7 +82,7 @@ header ul li a{
     font-weight:500 ;
 }
 .content .text h2 span{
-    color: rgb(176, 150, 5);
+    color: #EDB440;
     font-size: 1.2em;
     font-weight: 900;
 
@@ -97,7 +97,7 @@ header ul li a{
     display: inline-block;
     margin-top: 20px;
     padding: 8px 20px;
-    background: rgb(176, 150, 5);
+    background: #EDB440;
     color: white;
     border-radius: 40px;
     font-weight: 500;
